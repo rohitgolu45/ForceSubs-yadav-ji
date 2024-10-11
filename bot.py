@@ -31,10 +31,10 @@ log.info("Starting...")
 try:
     bottoken = config("7565000224:AAFUq8g6xbNExgTGOaRA5gqkBQ-5DTUEY7M")
     xchannel = config("CHANNEL")
-    welcome_msg = config("WELCOME_MSG")
-    welcome_not_joined = config("WELCOME_NOT_JOINED")
+    welcome_msg = config("WELCOME MSG")
+    welcome_not_joined = config("WELCOME NOT JOINED")
     on_join = config("ON_JOIN", cast=bool)
-    on_new_msg = config("ON_NEW_MSG", cast=bool)
+    on_new_msg = config("ON NEW MSG", cast=bool)
 except Exception as e:
     log.error(e)
     log.info("Bot is quiting...")
